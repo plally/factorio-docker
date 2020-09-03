@@ -1,7 +1,0 @@
-#!/bin/bash
-
-curl -L https://factorio.com/get-download/latest/headless/linux64 --output factorio_server.tar.xz
-mkdir factorio_server
-tar -xJf factorio_server.tar.xz -C factorio_server
-
-mkdir -p /factorio/saves
